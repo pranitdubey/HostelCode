@@ -1,0 +1,143 @@
+.homePageContent {
+
+	font-size: 24px;
+}
+
+
+img {
+  width: 100%;
+}
+.carousel-inner{
+  width:100%;
+  max-height: 400px !important;
+}
+
+
+
+
+
+
+#myCarousel {
+
+	margin-top: 80px;
+}
+
+nav button span {
+
+	margin-top: 05px;
+}
+
+@media (max-width: 767px) {
+  .navbar-collapse
+    {
+      
+         background-color: white;
+		float: right;
+		max-width: 150px;
+	        
+    }
+}
+
+
+#roomCarousel {
+
+	margin-top: 31px;
+	
+}
+
+.fourreasons {
+
+	font-size: 15px;
+}
+
+nav {
+    
+   
+}
+
+input {
+    
+    margin-bottom: 8px;
+}
+
+.form-group {
+    
+    margin-bottom: 8px;
+}
+
+#arrivalText  {
+    font-size: 20px;
+    padding-right: 0px;
+    
+    
+}
+#dateInput {
+
+    padding-left: 0px;
+    
+    
+}
+
+  #map {
+width:100%;height:600px;
+  }
+
+html , body {
+    
+     height: 100%;
+    margin: 0;
+    padding: 0;
+
+}
+.columns {
+    float: left;
+    width: 33.3%;
+    padding: 8px;
+}
+
+.price {
+    list-style-type: none;
+    border: 1px solid #eee;
+    margin: 0;
+    padding: 0;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.price:hover {
+    box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+}
+
+.price .header {
+    background-color: #111;
+    color: white;
+    font-size: 25px;
+}
+
+.price li {
+    border-bottom: 1px solid #eee;
+    padding: 20px;
+    text-align: center;
+}
+
+.price .grey {
+    background-color: #eee;
+    font-size: 20px;
+}
+
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+@media only screen and (max-width: 600px) {
+    .columns {
+        width: 100%;
+    }
+}
+
